@@ -142,7 +142,7 @@ Baud rate divider value:
 DIV_xx[15:0] = sys_freq ÷ baud_rate − 1
 
 The minimum value is 2.
-
+Try to reduce the minimum value to 1.//2021.11.16 Pan
 **INT_FLAG:**
 
 | FIELD   | DESCRIPTION                                  |
